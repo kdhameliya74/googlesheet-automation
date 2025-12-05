@@ -15,7 +15,7 @@ A complete workflow automation system using **Node.js** and **n8n** to collect, 
 > 📌 Click to view the video stored in this repository  
 > (GitHub UI will show preview automatically)
 
-[▶ Watch Workflow Automation Recording](./workflow-automation-recording.mp4)
+[▶ Watch Workflow Automation Recording](.assets/workflow-automation-recording.mp4)
 
 ---
 
@@ -55,7 +55,7 @@ This project automates the validation of user-submitted data inside a Google Spr
 
 ---
 ### Add Google API Credentials File 
-Create a file named credentials.json in the root directory of the project:
+Create a file named `credentials.json` in the root directory of the project:
 ```
 {
   "client_id": "YOUR_CLIENT_ID",
