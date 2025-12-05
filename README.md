@@ -15,7 +15,7 @@ A complete workflow automation system using **Node.js** and **n8n** to collect, 
 > 📌 Click to view the video stored in this repository  
 > (GitHub UI will show preview automatically)
 
-[▶ Watch Workflow Automation Recording](.assets/workflow-automation-recording.mp4)
+[▶ Watch Workflow Automation Recording](./assets/workflow-automation-recording.mp4)
 
 ---
 
