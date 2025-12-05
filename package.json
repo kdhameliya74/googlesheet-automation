@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "rm -rf dist && mkdir dist && copyfiles server.js services/**/* public/**/* package.json package-lock.json dist/",
+    "start:prod": "node dist/bundle.js",
+    "build": "rollup -c",
+    "verify": "node scripts/verify-build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,5 +21,13 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "googleapis": "^166.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-replace": "^6.0.3",
+    "rollup": "^4.53.3",
+    "rollup-plugin-copy": "^3.5.0"
   }
 }

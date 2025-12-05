@@ -78,4 +78,8 @@ Clone the repository and install dependencies:
 ```bash
 npm install
 npm run start
+
+# Production ready
+npm run build
+npm run start:prod 
 ```
